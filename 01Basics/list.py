@@ -81,3 +81,10 @@ print(squareNum)
 
 tea.clear()
 print(tea)
+
+
+# slicing any array will create its copy in the memory it will not point to the same reference
+h1 = [1,2,3,4]
+h2=h1[:]
+h1[0]=22
+print(h1 ,h2) # now the h2 is not pointing to the reference value of h1 it has it's own new object in the memory
