@@ -3,13 +3,12 @@
 
 import time 
 
-attempt = 0
-max_retries = 5
-wait_time=1
+wait_time = 1
+max_retries=5
+attepts=0
 
-while attempt < max_retries:
-    print("attempt", attempt+1 ,",", "retry left", max_retries-attempt-1 , "and time taken", wait_time )
+while attepts < max_retries:
+    print('attempts', attepts+1 ,"- wait time" ,  wait_time)
     time.sleep(wait_time)
-    attempt += 1
-    wait_time *= 2    
-    
+    wait_time*=2
+    attepts+=1
