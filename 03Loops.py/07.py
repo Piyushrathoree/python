@@ -4,6 +4,7 @@
 
 
 while True:
-    num = int(input("Enter a num:"))
-    if 1 <= num <= 10:
+    number = int(input("enter the number :"))
+    if 1<=number<=10:
+        print('you have enter the value in the right range ')
         break

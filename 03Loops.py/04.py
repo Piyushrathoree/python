@@ -1,16 +1,13 @@
 # 4. Reverse a String
-# Problem: Reverse a string using a loop.
+# Problem: Reverse a string using a loop
 
-def reverse_string(s):
-    reversed_s = ""
-    for char in s:
-        reversed_s = char + reversed_s
-    return reversed_s
+input_str = input("enter a string to reverse")
+reverse_str=''
 
-# Example usage
-input_string = "Hello, World!"
-print(reverse_string(input_string))
-
+for char in input_str:
+    reverse_str = char + reverse_str
+    
+print(reverse_str)
 
 
     
