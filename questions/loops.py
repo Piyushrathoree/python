@@ -9,3 +9,4 @@ for i in range (0,n):
 nums = [1,2,3,4]
 for i in nums:
     print(nums[i])
+    a
